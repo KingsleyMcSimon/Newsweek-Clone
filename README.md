@@ -1,1 +1,1 @@
-# Newsweek-Clone
+# In this project, i tried to clone the popular website of the US based news magazine --Newsweek founded in 1933 in the Microverse solo project. www.newsweek.com 
