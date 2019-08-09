@@ -265,7 +265,157 @@ body{
 	  padding-top: 10px;
   }
 
+  /*****TOP STORY**********/
 
+.top-container{
+	max-width: 1310px;
+	min-width: 320px;
+	margin: 0 auto;
+	float: right;
+}
+
+
+  h3,h4 {
+	color: #000;
+	font-weight: 700;
+  }
+
+  h3 {
+	font-size: 24px;
+	line-height: 24px;
+  }
+
+  h4 {
+	font-size: 23px;
+	line-height: 23px;
+  }
+
+  .summary {
+	font-size: 15px;
+	line-height: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+  }
+
+  h3 > a:hover {
+	text-decoration: underline #f72210;
+  }
+
+  /******OPINION************/
+
+  .block-opinion {
+	padding-bottom: 25px;
+  }
+
+  ul {
+	padding: 0;
+	list-style: none;
+  }
+
+  .line {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 8px;
+	height: auto;
+  }
+
+  ul > li img {
+	width: auto;
+	height: 63px;
+  }
+
+  .info-opinion {
+	width: auto;
+	margin-bottom: 10px;
+	display: flow-root;
+	font:bold 16px/18px "Roboto Condensed",sans-serif;
+  }
+
+  .info-opinion a {
+	color: #000;
+	text-decoration: none;
+  }
+
+  .info-by, .info-by a {
+	color: #555;
+	margin-top: 5px;
+	font-size: 14px;
+	line-height: 21px;
+  }
+
+  .info-opinion a:hover{
+	color: #f72210;
+  }
+
+  
+
+
+  .img-opinion {
+	float: left;
+	margin-right: 7px;
+  }
+
+
+
+
+
+  /*****MORE STORIES******/
+
+  .block-title {
+	padding-bottom: 11px;
+	color: rgba(3,3,3,.4);
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+	font: bold 16px/16px "Roboto Condensed",sans-serif;
+  }
+
+  .top-story-more article {
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #ccc;
+  }
+
+  .top-story-more article .image {
+	float: none;
+	width: 182px;
+	margin-right: 20px;
+  }
+
+  .top-story-more article:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  .top-story-more article:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  .top-story-more h4 {
+	font-size: 18px;
+  }
+
+  .top-story-more h4 a:hover {
+	text-decoration: underline #f72210;
+  }
+
+  .top-story-more article .summary {
+	padding-bottom: 0;
+  }
+
+.top-story-more article .summary,
+.top-story-more article:last-of-type {
+  border-bottom: none;
+}
+
+
+
+
+
+
+  
+  
 
 
 
@@ -349,3 +499,5 @@ footer {
 	color: #000;
 	text-decoration: none;
 }
+
+/*******END OF FOOTER******/
