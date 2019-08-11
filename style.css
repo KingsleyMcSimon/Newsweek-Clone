@@ -409,6 +409,43 @@ body{
   border-bottom: none;
 }
 
+/*******LATEST NEWS**********/
+
+.block-latest h2 {
+	padding-bottom: 0;
+	border-bottom: none;
+  }
+  .block-latest .image {
+	margin-right: 6px;
+  }
+  
+  .latest-info {
+	flex: 1;
+	font: bold 14px/17px "Roboto Condensed",sans-serif;
+  }
+
+  .block-latest li {
+	display: flex;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #ccc;
+  }
+
+  .block-latest li:nth-child(1n+1) {
+	margin-top: 10px;
+  }
+
+  .block-latest li:last-of-type {
+	border-bottom: none;
+  }
+
+  .block-latest p:hover {
+	  color: #f72210;
+  }
+
+  
+
+  
+
 
 
 
