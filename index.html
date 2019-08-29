@@ -2,470 +2,563 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!--<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:500|Noto+Sans+KR:900&display=swap"
-        rel="stylesheet">-->
-    <script src="https://kit.fontawesome.com/cbc2432238.js"></script>
-    <!--<link rel="shortcut icon" href="images/favicon.png" />-->
-    
-    <link rel="icon" type="image/png"
-        href="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/favicons/favicon-32x32.png" sizes="32x32">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://kit.fontawesome.com/cbc2432238.js"></script>
+<link rel="stylesheet" type="text/css" href="cssreset.css">
 
-    <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
+
+<link rel="icon" type="image/png"
+href="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/favicons/favicon-32x32.png" sizes="32x32">
+
+<title>Newsweek - News, Analysis, Politics, Business, Technology</title>
 </head>
 
 <body>
-    <div class="fixed-top" id="stickynav">
-        <div class="d-flex justify-content-between" id="navscroll">
-            <div class="p-2">
-                <date id="datenav">Tue, Aug 6, 2019</date>
-            </div>
-            <div class="p-2" id="signin">
-                <span>SIGN IN</span><a href="#" id="signinA">SUBSCRIBE <i class="fas fa-chevron-right"
-                        id="shevron"></i></a>
-                <i class="fas fa-bars" id="barsId"></i>
-            </div>
+<div class="fixed-top" id="stickynav">
+<div class="d-flex justify-content-between" id="navscroll">
+<div class="p-2">
+<date id="datenav">Tue, Aug 6, 2019</date>
+</div>
+<div class="p-2" id="signin">
+<span>SIGN IN</span><a href="#" id="signinA">SUBSCRIBE <i class="fas fa-chevron-right"
+        id="shevron"></i></a>
+<i class="fas fa-bars" id="barsId"></i>
+</div>
+</div>
+
+<div class="logoimg" id="biglogoid"><img src="images/Newsweek-logo.png" alt="logo"></div>
+</div>
+
+<nav class="header-bottom" id="navbottom">
+<ul class="page-nav">
+<li><a>U.S.</a></li>
+<li><a>World</a></li>
+<li><a>Business</a></li>
+<li><a>Tech & Science</a></li>
+<li><a>Culture</a></li>
+<li><a>Sports</a></li>
+<li><a>Health</a></li>
+<li><a>Opinion</a></li>
+<li><a>Vantage</a></li>
+<li><a id="search">Search</a><i class="fas fa-search"></i></li>
+</ul>
+</nav>
+
+
+
+
+<div class="main container-fluid position-relative">
+<div id="first-content" class="row mb-3">
+<div class="col-lg-9 col-md-12">
+<div class="row">
+                      <!-- Featured Stories -->
+
+<div class="col-lg-5 col-md-6 order-2 order-md-1 position-relative" id="featured-story">
+<h6 class="text-uppercase text-black-50 font-weight-bold">featured stories</h6>
+
+<div class="card text-body border-0 pb-4">
+<div class="wrap position-relative">
+        <img src="images/featured-stories-analysis-newsweek-momentum-awards-2019.png" class="card-img " alt="...">
+        <div class="card-img-overlay p-0 position-absolute fixed-bottom">
+        <h5 class="card-title text-danger text-uppercase m-0  bg-light">Analysis</h5>
+        </div>
+</div>
+        
+<div class="card-body p-0 mt-1">
+        <h5 class="card-title font-weight-bold h4">The Newsweek Momentum Awards</h5>
+        <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+        </div>
         </div>
 
-        <div class="logoimg" id="biglogoid"><img src="images/Newsweek-logo.png" alt="logo"></div>
-    </div>
-
-    <nav class="header-bottom" id="navbottom">
-        <ul class="page-nav">
-            <li><a>U.S.</a></li>
-            <li><a>World</a></li>
-            <li><a>Business</a></li>
-            <li><a>Tech & Science</a></li>
-            <li><a>Culture</a></li>
-            <li><a>Sports</a></li>
-            <li><a>Health</a></li>
-            <li><a>Opinion</a></li>
-            <li><a>Vantage</a></li>
-            <li><a id="search">Search</a><i class="fas fa-search"></i></li>
-        </ul>
-    </nav>
-
-    <main class="fluid-container">
-        <div class="row sc-ct">
-            <div class="col-sm-3" id="first">
-                <div class="wrap f-stories">
-                    <article>
-                        <div class="wrap">
-                            <h2 class="section-title"> Featured Stories</h2>
-                            <a href="#"> <img src="images/featured-stories-analysis-newsweek-momentum-awards-2019.png"
-                                    alt="Analysis"> </a>
-                            <div class="category"><a href="#">ANALYSIS</a></div>
-                        </div>
-                        <h3><a href="#">The Newsweek Momentum Awards</a></h3>
-                        <div class="summary">
-                            <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as
-                                one city, which will be chosen as the "smartest city in the world."</p>
-                        </div>
-                    </article>
-
-                    <article>
-                        <div class="wrap1">
-                            <a href="#"> <img src="images/featured-stories-politics-el-paso-texas-shooting-walmart.jpg"
-                                    alt="El-Paso-Shooting"> </a>
-                        </div>
-                        <div class="category"><a href="#">POLITICS</a></div>
-                        <h3><a href="#">Ex-GOP Congressman Says Republicans Will Do 'Nothing' on Gun Control</a></h3>
-                        <div class="summary">
-                            <p>Former Florida Congressman David Jolly called on Democrats to clear out Republicans from
-                                the House and Senate to tackle gun control.</p>
-                        </div>
-                    </article>
-
-                    <article>
-                        <div class="wrap1">
-                            <a href="#"> <img src="images/featured-stories-china-russia-xi-putin-g20.jpg"
-                                    alt="Russia-China"> </a>
-                        </div>
-                        <div class="category"><a href="#">WORLD</a></div>
-                        <h3><a href="#">China and Russia Are Closer Than Ever, U.S. Only Made It Easier for Them</a>
-                        </h3>
-                        <div class="summary">
-                            <p>Experts China and Russia's ties are growing not out of a mutual affinity, but out of a
-                                necessity to avoid total domination by the U.S., whose strategy is only accelerating
-                                their rapprochement.</p>
-                        </div>
-                    </article>
-
-                    <article>
-                        <div class="wrap1">
-                            <a href="#"> <img src="images/featured-stories-editors-note-spot-im-logo.png"
-                                    alt="Editors-note"> </a>
-                        </div>
-                        <div class="category"><a href="#">EDITOR'S NOTE</a></div>
-                        <h3><a href="#">To Our Readers:</a></h3>
-                        <div class="summary">
-                            <p>We always want to hear from you, and to make that easier, we've implemented a new
-                                commenting forum. Take a look at the bottom of Newsweek articles. Spot.IM is a tool that
-                                helps readers respond to our stories and communicate with one another—and with us. Ask
-                                us a question, embed a GIF, point out a mistake. Be civil and respectful, please. And
-                                most important: Be in touch.</p>
-                        </div>
-                    </article>
+        <div class="card text-body border-0 pb-4">
+        <div class="wrap position-relative">
+                <img src="images/featured-stories-politics-el-paso-texas-shooting-walmart.jpg" class="card-img" alt="Texas-Shooting">
+                <div class="card-img-overlay p-0 position-absolute fixed-bottom">
+                <h5 class="card-title text-danger text-uppercase m-0 bg-light">Politics</h5>
                 </div>
-            </div>
-    </main>
+        </div>
+        <div class="card-body p-0 mt-1">
+                <h5 class="card-title font-weight-bold h4">Ex-GOP Congressman Says Republicans Will Do 'Nothing' on Gun Control</h5>
+                <p class="card-text">Former Florida Congressman David Jolly called on Democrats to clear out Republicans from
+                the House and Senate to tackle gun control.</p>
+        </div>
+        </div>
 
-    <div class="top-container">
-    <div class="row sc-ct">    
-    <div class="col-sm-3 top-story" id="second">
-        <div class="wrap tp-story">
-            <div class="top-story-featured">
-                <article>
-                    <div class="wrap">
-                        <h2 class="section-title"> Top Story</h2>
-                        <a href=""> <img src="images/top-story-donald-trump-gun-control-reform-law.jpg" alt="Top-Story">
-                        </a>
-                        <div class="category"> <a href="#">POLITICS</a></div>
+        <div class="card text-body border-0 pb-4">
+        <div class="wrap position-relative">
+                <img src="images/featured-stories-china-russia-xi-putin-g20.jpg" class="card-img" alt="China-Russia">
+                <div class="card-img-overlay p-0 position-absolute fixed-bottom ">
+                <h5 class="card-title text-danger text-uppercase m-0 bg-light">World</h5>
+                </div>
+        </div>
+        
+        <div class="card-body p-0 mt-1">
+                <h5 class="card-title font-weight-bold h4">China and Russia Are Closer Than Ever, U.S. Only Made It Easier for Them</h5>
+                <p class="card-text">Experts China and Russia's ties are growing not out of a mutual affinity, but out of a
+                necessity to avoid total domination by the U.S., whose strategy is only accelerating their rapprochement.</p>
+        </div>
+        </div>
+
+        <div class="card text-body border-0 pb-4">
+        <div class="wrap position-relative">
+                <img src="images/featured-stories-editors-note-spot-im-logo.png" class="card-img" alt="...">
+                <div class="card-img-overlay p-0 position-absolute fixed-bottom">
+                <h5 class="card-title text-danger text-uppercase m-0 bg-light">Editor's note</h5>
+                </div>
+        </div>      
+        <div class="card-body p-0 mt-1">
+                <h5 class="card-title font-weight-bold h4">To Our Readers:</h5>
+                <p class="card-text">We always want to hear from you, and to make that easier, we've implemented a new commenting forum. Take a look at the bottom of Newsweek articles. Spot.IM is a tool that helps readers respond to our stories and communicate with one another—and with us. Ask us a question, embed a GIF, point out a mistake. Be civil and respectful, please. And most important: Be in touch.</p>
+        </div>
+        </div>
+        
+        </div>
+
+                             <!--Top Story-->
+
+        <div class="col-lg-7 col-md-6 order-1 order-md-2 position-relative overflow-auto" id="top-story">
+        <h6 class="text-uppercase text-black-50 font-weight-bold">Top Story</h6>
+
+                <div class="card text-body border-0 pb-4">
+                <div class="wrap position-relative">
+               <a href="#"><img src="images/top-story-donald-trump-gun-control-reform-law.jpg" class="card-img" alt="Donald-Trump-Gun-Control"></a>
+                <div class="card-img-overlay p-0 position-absolute fixed-bottom">
+               <h5 class="card-title text-danger text-uppercase m-0 bg-light">Politics</h5>
+                </div>
+                </div>
+              <div class="card-body p-0 mt-2">
+              <a href="#"><h5 class="card-title font-weight-bold h4">Trump 'Determined' to Push for Tougher Gun Control Laws, Warned by NRA</h5></a>
+                <p class="card-text">President Donald Trump is reportedly considering tougher background checks on gun
+                purchases but faces Republican opposition to meaningful reform.</p>
+                </div>
+                </div>    
+
+                <!--Culture & Travel-->
+
+        <div id="culture-story" class="position-relative">
+        <h6 class="text-uppercase text-black-50 font-weight-bold p-2 m-0">Culture & Travel</h6>
+        <div class="row">
+                <div class="col-lg-6 col-md-6 pr-2">
+                <div class="card border-0 bg-transparent" id="culture-item">
+                <img src="images/culture-travel-pere-lachaise-cemetery-paris.jpg" class="card-img-top" alt="Pere-Cemetery">
+                <div class="card-body">
+                <h5 class="card-title">7 Best Places for Literature Lovers in Paris</h5>
+                <p class="card-text">The City of Light could well be changed to the City of Lit.</p>
+                <div class="badge p-0">
+                        <a href="#" class="d-inline-block py-1 px-2 mr-2 mb-2">Paris</a>
+                </div>
+                </div>
+                </div>
+                </div>
+                                  
+        <div class="col-lg-6 pl-2 col-md-6">
+                        <div class="card border-0 bg-transparent" id="culture-item">
+                          <img src="images/culture-travel-whale-shark-mouth-open.jpg" class="card-img-top" alt="Whale-Shark">
+                          <div class="card-body">
+                            <h5 class="card-title">Swimming with Whale Sharks in Mexico</h5>
+                            <p class="card-text">Fishermen in the Gulf of Mexico turn to conservation through tourism in Isla Mujeres as they take advantage of the whale shark migration.</p>
+                            <div class="badge p-0">
+                              <a href="#" class="d-inline-block py-1 px-2 mr-2 mb-2">Mexico</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <h3> <a href="">Trump 'Determined' to Push for Tougher Gun Control Laws, Warned by NRA</a> </h3>
-                    <div class="summary">
-                        <p>President Donald Trump is reportedly considering tougher background checks on gun purchases
-                            but faces Republican opposition to meaningful reform.</p>
+                    <div class="row">
+                      <div class="col-lg-6 pr-2 col-md-6">
+                        <div class="card border-0 bg-transparent" id="culture-item">
+                          <img src="images/culture-travel-northern-lights-finland.jpg" class="card-img-top" alt="Finland">
+                          <div class="card-body">
+                            <h5 class="card-title">The Lap of Luxury in Lapland</h5>
+                            <p class="card-text">In the heart of Lapland, Finland, lies a private eco-luxury lodge - the ultimate place to view the Northern Lights.</p>
+                            <div class="badge p-0">
+                              <a href="#" class="d-inline-block py-1 px-2 mr-2 mb-2">Northern Lights</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 pl-2 col-md-6">
+                        <div class="card border-0 bg-transparent" id="culture-item">
+                          <img src="images/culture-travel-blue-sinkhole-3.jpg" class="card-img-top" alt="Sinkhole">
+                          <div class="card-body">
+                            <h5 class="card-title">A Blue Hole Expedition May Help Save the Great Barrier Reef</h5>
+                            <p class="card-text">Ambitious reef-wide health check could provide valuable information to save the largest barrier reef.</p>
+                            <div class="badge p-0">
+                              <a href="#" class="d-inline-block py-1 px-2 mr-2 mb-2">Great Barrier Reef</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                </article>
-            </div>
-        </div>
-    </div></div>
+                  </div>
+                              <!--More Stories-->
 
-    <div class="top-story-more">
-        <h2 class="block-title">More Stories</h2>
-        <article>
-            <div class="image">
-                <img src="images/more-stories-ice-raid-mississippi.jpg" alt="Ice-raid">
-            </div>
-            <h4><a href="#">ICE Mississippi Raid Took Place on First Day of School, Causing Chaos</a></h4>
-            <div class="summary">
-                <p>"It was their first day of school. There are no words for this intentional cruelty," said Natalie
-                    Montelongo, the national political director for 2020 presidential candidate Julián Castro.</p>
-            </div>
-        </article>
-
-        <article>
-            <div class="image">
-                <img src="images/more-stories-donald-trump.jpg" alt="Donald-Trump">
-            </div>
-            <h4><a href="#">Dayton Mayor Reacts to Trump's Tweet Attacking Her: 'I'm Really Confused'</a></h4>
-            <div class="summary">
-                <p>"I don't know what he's talking about," Dayton Mayor Nan Whaley said as she read President Donald
-                    Trump's tweets.</p>
-            </div>
-        </article>
-
-        <article>
-            <div class="image">
-                <img src="images/more-stories-twitter.jpg" alt="Twitter">
-            </div>
-            <h4><a href="#">Twitter Users Are Registering in Germany to Clear Feeds of Hate Speech</a></h4>
-            <div class="summary">
-                <p>Due to Germany's stringent hate-speech laws, Twitter is much more diligent about removing racist
-                    and anti-Semitic tweets from timelines there.</p>
-            </div>
-        </article>
-
-        <article>
-            <div class="image">
-                <img src="images/more-stories-russia-china-venezuela-aid-maduro.jpg" alt="China-Russia">
-            </div>
-            <h4><a href="#">China and Russia Say U.S. Failed in Venezuela, It's Time to Give Up</a></h4>
-            <div class="summary">
-                <p>The latest sweeping U.S. sanctions on Venezuela target Chinese and Russian businesses, but
-                    Beijing and Moscow argued they would continue supporting the socialist leader opposed by
-                    Washington.</p>
-            </div>
-        </article>
-
-        <article>
-            <div class="image">
-                <img src="images/more-stories-walmart-guns-ammo.jpg" alt="Walmart">
-            </div>
-            <h4><a href="#">Walmart Employee Urges Co-Workers to Walk Out Over Gun Sales Policy</a></h4>
-            <div class="summary">
-                <p>"Of all the gun tragedies, this hit the closest to home for a lot of us. I felt like I had to do
-                    something or else I would really be complicit in a company that was continuing to sell
-                    firearms."</p>
-            </div>
-        </article>
-
-        <article>
-            <div class="image">
-                <img src="images/more-stories-stutthof.jpg" alt="Stuttof">
-            </div>
-            <h4><a href="#">92-Year-Old Former Nazi Camp Guard to Go on Trial</a></h4>
-            <div class="summary">
-                <p>Bruno Dey is accused of contributing to the deaths of prisoners at the Stutthof camp in
-                    present-day Poland.</p>
-            </div>
-        </article>
-
-        <article>
-            <div class="image">
-                <img src="images/more-stories-tarantula-spider-arachnid-stock-getty.jpg" alt="Spider">
-            </div>
-            <h4><a href="#">Thousands of Tarantulas Are About to Crawl Across Colorado</a></h4>
-            <div class="summary">
-                <p>10-year-old male tarantulas will be soon looking for mates in Colorado.</p>
-            </div>
-        </article>
-
-        <article>
-            <div class="image">
-                <img src="images/more-stories-teen-teenager-school-boy-stock-getty.jpg" alt="Teenager">
-            </div>
-            <h4><a href="#">20,000 LGBTQ Teens Will Undergo Conversion Therapy by the Age of 18</a></h4>
-            <div class="summary">
-                <p>The debunked practice is currently only banned for minors in 18 states, Puerto Rico and
-                    Washington, D.C., while adults can legally be offered the service in all states and
-                    jurisdictions.</p>
-            </div>
-        </article></div></div></div>
-
-<div class="col-sm-3" id="third">
-<div class="wrap r-sidebar">
-<div class="block-opinion">
-<h2 class="section-title"> Opinion</h2>
-<ul><li class="line">
-<div class="img-opinion"><a href="#">
-<img src="images/opinion-marc-beeson.png" alt="Marc-Beeson"></a>
-</div><div class="info-opinion">
-<a href="#"> Why We Wrote Carrie Underwood's 'The Bullet' </a>
-<div class="info-by"><p>BY MARC BEESON</p></div>
-</div></li>
-
-<li class="line">
-<div class="img-opinion"><a href="#">
-<img src="images/opinion-ted-lieu.png" alt="Ted-Lieu"></a>
-</div><div class="info-opinion">
-<a href="#"> Trump's Attempt to Tie Gun Reform to Immigration Shows Contempt for Victims </a>
-<div class="info-by"><p>BY TED LIEU</p></div>
-</div></li>
-
-<li class="line">
-<div class="img-opinion"><a href="#">
-<img src="images/opinion-freire-robinson.png" alt="Robinson"></a>
-</div><div class="info-opinion">
-<a href="#"> I Was That Kid Chased by Feral Hogs—and We Didn't Need an Assault Rifle </a>
-<div class="info-by"><p>BY CAROL FREIRE ROBINSON</p></div>
-</div></li>
-
-<li class="line">
-<div class="img-opinion"><a href="#">
-<img src="images/opinion-peter-roff.png" alt="Peter-Roff"></a>
-</div><div class="info-opinion">
-<a href="#"> Sorry, Democrats: Trump Didn't Cause the Tragedies in El Paso and Dayton </a>
-<div class="info-by"><p>BY PETER ROFF</p></div>
-</div></li>
-
-<li class="line">
-<div class="img-opinion"><a href="#">
-<img src="images/opinion-travis-akers-co.png" alt="Marc-Beeson"></a>
-</div><div class="info-opinion">
-<a href="#"> We Call on Gun Dealers and Responsible Owners to Prevent the Next Shooting </a>
-<div class="info-by"><P> BY TRAVIS AKERS, KRISTIN BECK, NAVEED JAMALI, NAVEED SHAH AND FRED WELLMAN</p> </div>
-</div></li>
-
-<li class="line">
-<div class="img-opinion"><a href="#">
-<img src="images/opinion-newt-gingrich.png" alt="Newt-Gingrich"></a>
-</div><div class="info-opinion">
-<a href="#"> Mitch McConnell Is Undeniably a Master of the Senate and the Judiciary </a>
-<div class="info-by"> <p>BY NEWT GINGRICH</p></div>
-</div></li></ul></div></div>
-  
-<div class="block-latest">
-<h2 class="block-title">Latest News</h2>
-<ul><li>
-<div class="image">
-<img src="images/latest-news-sound-los-angeles.jpg" alt="Sound-Los-Angeles">
-</div>
-<div class="latest-info">
-<a href="#"><p>5 Best Nightclubs in Los Angeles</p></a>
-</div></li>
-
-<li>
-<div class="image">
-<img src="images/latest-news-chernobyl-new-safe-confinement.jpg" alt="Chernobyl">
-</div>
-<div class="latest-info">
-<a href="#"><p>Chernobyl 'Sarcophagus' That Holds in Radiation on Verge of Collapse</p></a>
-</div></li>
-
-<li>
-<div class="image">
-<img src="images/latest-news-becky-lynch-man-wwe.jpg" alt="Becky-Lynch">
-</div>
-<div class="latest-info">
-<a href="#"><p>Becky Lynch Talks SummerSlam Match Against Natalya</p></a>
-</div></li>
-
-<li>
-<div class="image">
-<img src="images/latest-news-melania-trump-dinner-woody-harrelson.jpg" alt="Melania-Trump">
-</div>
-<div class="latest-info">
-<a href="#"><p>Melania Trump Got '0.1 Percent' Talking Time in 'Brutal Dinner' With Donald</p></a>
-</div></li>
-
-<li>
-<div class="image">
-<img src="images/latest-news-equinox-soulcycle-trump-how-cancel-membership.jpg" alt="Gym-Membership">
-</div>
-<div class="latest-info">
-<a href="#"><p>How to Cancel Gym Memberships at Equinox, SoulCycle and Other Facilities</p></a>
-</div></li>
-
-<li>
-<div class="image">
-<img src="images/latest-news-donald-trump-rust-belt.jpg" alt="Donald-Trump">
-</div>
-<div class="latest-info">
-<a href="#"><p>Will Michigan Rust Belt Voters Back Trump Again?</p></a>
-</div></li>
-
-<li>
-<div class="image">
-<img src="images/latest-news-richard-nixon.jpg" alt="Richard-Nixon">
-</div>
-<div class="latest-info">
-<a href="#"><p>Watergate: Why President Richard Nixon Resigned 45 Years Ago</p></a>
-</div></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer>
-        <div class="footer-top">
-            <div class="row">
-                <div class="col-md-9 logo-footer">
-                    <a href="#"><img src="images/footer-logo-red.png" alt="logopix"></a>
-                    <span class="copyright">&copy 2019 Newsweek</span>
-                </div>
-
-                <div class="col-md-3 media-icons">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-tumblr"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <div class="row justify-content-between">
-                <div class="col-md-7 footer-bottom-left">
-                    <ul class="menu row">
-                        <a href="#">
-                            <li class="first leaf">About Us</li>
-                        </a>
-                        <a href="#">
-                            <li class="leaf">Corrections</li>
-                        </a>
-                        <a href="#">
-                            <li class="leaf">Contact Us</li>
-                        </a>
-                        <a href="#">
-                            <li class="leaf">Editorial Guidelines</li>
-                        </a>
-                        <a href="#">
-                            <li class="leaf">Advertise</li>
-                        </a>
-                        <a href="#">
-                            <li class="leaf">Copyright</li>
-                        </a>
-                        <a href="#">
-                            <li class="leaf">Terms & Conditions</li>
-                        </a>
-                        <a href="#">
-                            <li class="leaf">Privacy Policy</li>
-                        </a>
-                        <a href="#">
-                            <li class="leaf">Cookie Policy</li>
-                        </a>
-                        <a href="#">
-                            <li class="leaf">Terms of Sale</li>
-                        </a>
-                        <a href="#">
-                            <li class="leaf">Archive</li>
-                        </a>
-                        <a href="#">
-                            <li class="leaf">Announcements</li>
-                        </a>
-                        <a href="#">
-                            <li class="last leaf">Consent preferences</li>
-                        </a>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 footer-bottom-right">
-                    <div class="row justify-content-between">
-                        <strong class="editions col-4 text-right">Editions:</strong>
-                        <ul class="menu col-8 row justify-content-end" id="right">
-                            <a href="#">
-                                <li class="first leaf">U.S. Edition</li>
-                            </a>
-                            <a href="#">
-                                <li class="leaf">Middle East</li>
-                            </a>
-                            <a href="#">
-                                <li class="leaf">日本</li>
-                            </a>
-                            <a href="#">
-                                <li class="leaf">한국</li>
-                            </a>
-                            <a href="#">
-                                <li class="leaf">Pakistan</li>
-                            </a>
-                            <a href="#">
-                                <li class="leaf">Polska</li>
-                            </a>
-                            <a href="#">
-                                <li class="last leaf">România</li>
-                            </a>
-                        </ul>
+                  <div id="more-stories">
+                    <h6 class="text-uppercase text-black-50 font-weight-bold">more stories</h6>
+                    <div class="clearfix py-3 border-top">
+                        <a href="#"><img src="images/more-stories-ice-raid-mississippi.jpg" class="img-thumbnail float-left border-0 mr-3 mb-2 p-0" alt="Ice-raid"></a>
+                     <a href="#"><h5 class="text-body font-weight-bold">ICE Mississippi Raid Took Place on First Day of School, Causing Chaos</h5></a>
+                      <p>"It was their first day of school. There are no words for this intentional cruelty," said Natalie
+                        Montelongo, the national political director for 2020 presidential candidate Julián Castro.</p>
                     </div>
-                </div>
+
+                    <div class="clearfix py-3 border-top">
+                        <a href="#"><img src="images/more-stories-donald-trump.jpg" class="img-thumbnail float-left border-0 mr-3 mb-2 p-0" alt="Donald-Trump"></a>
+                       <a href="#"><h5 class="text-body font-weight-bold">Dayton Mayor Reacts to Trump's Tweet Attacking Her: 'I'm Really Confused'</h5></a>
+                      <p>"I don't know what he's talking about," Dayton Mayor Nan Whaley said as she read President Donald
+                        Trump's tweets.</p>
+                    </div>
+
+                    <div class="clearfix py-3 border-top">
+                        <a href="#"><img src="images/more-stories-twitter.jpg" class="img-thumbnail float-left border-0 mr-3 mb-2 p-0" alt="Twitter"></a>
+                      <a href="#"><h5 class="text-body font-weight-bold">Twitter Users Are Registering in Germany to Clear Feeds of Hate Speech</h5></a>
+                      <p>Due to Germany's stringent hate-speech laws, Twitter is much more diligent about removing racist
+                          and anti-Semitic tweets from timelines there.</p>
+                    </div>
+
+                    <div class="clearfix py-3 border-top">
+                        <a href="#"><img src="images/more-stories-russia-china-venezuela-aid-maduro.jpg" class="img-thumbnail float-left border-0 mr-3 mb-2 p-0" alt="Russia-China"></a>
+                      <h5 class="text-body font-weight-bold">China and Russia Say U.S. Failed in Venezuela, It's Time to Give Up</h5></a>
+                      <p>The latest sweeping U.S. sanctions on Venezuela target Chinese and Russian businesses, but
+                          Beijing and Moscow argued they would continue supporting the socialist leader opposed by
+                          Washington.</p>
+                    </div>
+
+                    <div class="clearfix py-3 border-top">
+                        <a href="#"><img src="images/more-stories-walmart-guns-ammo.jpg" class="img-thumbnail float-left border-0 mr-3 mb-2 p-0" alt="Walmart"></a>
+                      <a href="#"><h5 class="text-body font-weight-bold">Walmart Employee Urges Co-Workers to Walk Out Over Gun Sales Policy</h5></a>
+                      <p>"Of all the gun tragedies, this hit the closest to home for a lot of us. I felt like I had to do
+                          something or else I would really be complicit in a company that was continuing to sell
+                          firearms."</p>
+                    </div>
+
+                    <div class="clearfix py-3 border-top">
+                        <a href="#"><img src="images/more-stories-stutthof.jpg" class="img-thumbnail float-left border-0 mr-3 mb-2 p-0" alt="Stuttot"></a>
+                      <a href="#"><h5 class="text-body font-weight-bold">92-Year-Old Former Nazi Camp Guard to Go on Trial</h5></a>
+                      <p>Bruno Dey is accused of contributing to the deaths of prisoners at the Stutthof camp in
+                          present-day Poland.</p>
+                    </div>
+
+                    <div class="clearfix py-3 border-top">
+                        <a href="#"><img src="images/more-stories-tarantula-spider-arachnid-stock-getty.jpg" class="img-thumbnail float-left border-0 mr-3 mb-2 p-0" alt="Spider"></a>
+                      <a href="#"><h5 class="text-body font-weight-bold">Thousands of Tarantulas Are About to Crawl Across Colorado</h5></a>
+                      <p>10-year-old male tarantulas will be soon looking for mates in Colorado.</p>
+                    </div>
+
+                    <div class="clearfix py-3 border-top">
+                     <a href="#"><img src="images/more-stories-teen-teenager-school-boy-stock-getty.jpg" class="img-thumbnail float-left border-0 mr-3 mb-2 p-0" alt="Teenager"></a>
+                     <a href="#"><h5 class="text-body font-weight-bold">20,000 LGBTQ Teens Will Undergo Conversion Therapy by the Age of 18</h5></a>
+                      <p>The debunked practice is currently only banned for minors in 18 states, Puerto Rico and
+                          Washington, D.C., while adults can legally be offered the service in all states and
+                          jurisdictions.</p>
+                    </div>
+                  </div>
+    
+              </div>
+              </div>
+    
             </div>
-        </div>
+            
+                                                    <!--Opinion Column-->
 
-    </footer>
+      <div class="col-lg-3 col-md-12 order-3 order-md-3 position-relative overflow-auto" id="opinion">
+          <h6 class="text-uppercase text-black-50 font-weight-bold">opinion</h6>
 
-    </div>
+          <div class="mb-5 position-relative" id="opinion-items">
+            <div class="card pb-3 border-top-0 border-right-0 border-left-0 opinion-item">
+              <div class="row no-gutters">
+                <div class="col-auto position-relative wrap">
+                  <img src="images/opinion-ted-lieu.png" alt="TED-LIEU">
+                </div>
+                <div class="col-8">
+                  <div class="card-body pr-0 py-0 pl-2">
+                    <h6 class="card-title font-weight-bolder mb-0">Trump's Attempt to Tie Gun Reform to Immigration Shows Contempt for Victims</h6>
+                    <p class="card-text mt-1 font-weight-bold">BY TED LIEU</p>
+                  </div>
+                </div>
+              </div>
+            </div> 
+      
+            <div class="card py-3 border-top-0 border-right-0 border-left-0 opinion-item">
+              <div class="row no-gutters">
+                <div class="col-auto mr-2 position-relative wrap">
+                  <img src="images/opinion-marc-beeson.png" class="card-img d-block" alt="PETER-ROFF">
+                </div>
+                <div class="col-8">
+                  <div class="card-body pr-0 py-0 pl-2">
+                    <h6 class="card-title font-weight-bolder mb-0">Why We Wrote Carrie Underwood's 'The Bullet'</h6>
+                    <p class="card-text mt-1 font-weight-bold">BY MARC BENSON</p>
+                  </div>
+                </div>
+              </div>
+            </div> 
+      
+            <div class="card py-3 border-top-0 border-right-0 border-left-0 opinion-item">
+              <div class="row no-gutters">
+                <div class="col-auto mr-2 position-relative wrap">
+                  <img src="images/opinion-freire-robinson.png" class="card-img d-block" alt="FREIRE-ROBINSON">
+                </div>
+                <div class="col-8">
+                  <div class="card-body pr-0 py-0 pl-2">
+                    <h6 class="card-title font-weight-bolder mb-0">I Was That Kid Chased by Feral Hogs—and We Didn't Need an Assault Rifle </h6>
+                    <p class="card-text mt-1 font-weight-bold">BY CAROL FREIRE ROBINSON</p>
+                  </div>
+                </div>
+              </div>
+            </div>  
+      
+            <div class="card py-3 border-top-0 border-right-0 border-left-0 opinion-item">
+              <div class="row no-gutters">
+                <div class="col-auto mr-2 position-relative wrap">
+                  <img src="images/opinion-peter-roff.png" class="card-img d-block" alt="PETER-ROFF">
+                </div>
+                <div class="col-8">
+                  <div class="card-body pr-0 py-0 pl-2">
+                    <h6 class="card-title font-weight-bolder mb-0">Sorry, Democrats: Trump Didn't Cause the Tragedies in El Paso and Dayton</h6>
+                    <p class="card-text mt-1 font-weight-bold">BY PETER ROFF</p>
+                  </div>
+                </div>
+              </div>
+            </div> 
+      
+            <div class="card py-3 border-top-0 border-right-0 border-left-0 opinion-item">
+              <div class="row no-gutters">
+                <div class="col-auto mr-2 position-relative wrap">
+                  <img src="images/opinion-travis-akers-co.png" class="card-img d-block" alt="Group-Reporters">
+                </div>
+                <div class="col-8">
+                  <div class="card-body pr-0 py-0 pl-2">
+                    <h6 class="card-title font-weight-bolder mb-0">We Call on Gun Dealers and Responsible Owners to Prevent the Next Shooting</h6>
+                    <p class="card-text mt-1 font-weight-bold">BY TRAVIS AKERS, KRISTIN BECK, NAVEED JAMALI, NAVEED SHAH AND FRED WELLMAN</p>
+                  </div>
+                </div>
+              </div>
+            </div> 
+      
+            <div class="card py-3 border-top-0 border-right-0 border-left-0 opinion-item">
+              <div class="row no-gutters">
+                <div class="col-auto mr-2 position-relative wrap">
+                  <img src="images/opinion-newt-gingrich.png" class="card-img d-block" alt="Newt-Gingrich">
+                </div>
+                <div class="col-8">
+                  <div class="card-body pr-0 py-0 pl-2">
+                    <h6 class="card-title font-weight-bolder mb-0">Mitch McConnell Is Undeniably a Master of the Senate and the Judiciary</h6>
+                    <p class="card-text mt-1 font-weight-bold">BY NEWT GINGRICH</p>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+
+                          <!--LATEST NEWS-->
+
+          <div class="mb-5" id="latest-news">
+            <h6 class="text-uppercase text-black-50 font-weight-bold pb-3 mb-0">latest news</h6>
+
+            <div class="card pb-3 border-0 latest-news-item">
+              <div class="row no-gutters">
+                <div class="wrap col-auto col-lg-5">
+                  <img src="images/latest-news-sound-los-angeles.jpg" class="card-img" alt="Sound-los-angeles">
+                </div>
+                <div class="col-6 col-md-7 col-lg-7">
+                  <div class="card-body pr-0 py-0 pl-3">
+                    <h5 class="card-title">5 Best Nightclubs in Los Angeles</h5>
+                  </div>
+                </div>
+              </div>
+            </div> 
+
+            <div class="card py-3 border-right-0 border-bottom-0 border-left-0 latest-news-item">
+              <div class="row no-gutters">
+                <div class="wrap col-auto col-lg-5">
+                  <img src="images/latest-news-chernobyl-new-safe-confinement.jpg" class="card-img" alt="Chernobyl">
+                </div>
+                <div class="col-6 col-md-7 col-lg-7">
+                  <div class="card-body pr-0 py-0 pl-3">
+                    <h5 class="card-title">Chernobyl 'Sarcophagus' That Holds in Radiation on Verge of Collapse</h5>
+                  </div>
+                </div>
+              </div>
+            </div> 
+
+            <div class="card py-3 border-right-0 border-bottom-0 border-left-0 latest-news-item">
+              <div class="row no-gutters">
+                <div class="col-auto col-lg-5 wrap">
+                  <img src="images/latest-news-becky-lynch-man-wwe.jpg" class="card-img" alt="Becky-Lynch">
+                </div>
+              <div class="col-6 col-md-7 col-lg-7">
+                <div class="card-body pr-0 py-0 pl-3">
+                  <h5 class="card-title">Becky Lynch Talks SummerSlam Match Against Natalya</h5>
+                  </div>
+                </div>
+              </div>
+            </div> 
+
+            <div class="card py-3 border-right-0 border-bottom-0 border-left-0 latest-news-item">
+              <div class="row no-gutters">
+                <div class="col-auto col-lg-5 wrap">
+                  <img src="images/latest-news-melania-trump-dinner-woody-harrelson.jpg" class="card-img" alt="Melania-Trump">
+                </div>
+              <div class="col-6 col-md-7 col-lg-7">
+                <div class="card-body pr-0 py-0 pl-3">
+                  <h5 class="card-title">Melania Trump Got '0.1 Percent' Talking Time in 'Brutal Dinner' With Donald</h5>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          
+            <div class="card py-3 border-right-0 border-bottom-0 border-left-0 latest-news-item">
+              <div class="row no-gutters">
+                <div class="col-auto col-lg-5 wrap">
+                  <img src="images/latest-news-equinox-soulcycle-trump-how-cancel-membership.jpg" class="card-img" alt="Gym-Membership">
+                </div>
+              <div class="col-6 col-md-7 col-lg-7">
+                <div class="card-body pr-0 py-0 pl-3">
+                  <h5 class="card-title">How to Cancel Gym Memberships at Equinox, SoulCycle and Other Facilities</h5>
+                  </div>
+                </div>
+              </div>
+            </div> 
+
+            <div class="card py-3 border-right-0 border-bottom-0 border-left-0 latest-news-item">
+              <div class="row no-gutters">
+                <div class="col-auto col-lg-5 wrap">
+                  <img src="images/latest-news-donald-trump-rust-belt.jpg" class="card-img" alt="Donald-Trump">
+                </div>
+              <div class="col-6 col-md-7 col-lg-7">
+                <div class="card-body pr-0 py-0 pl-3">
+                  <h5 class="card-title">Will Michigan Rust Belt Voters Back Trump Again?</h5>
+                  </div>
+                </div>
+              </div>
+            </div> 
+
+            <div class="card py-3 border-right-0 border-bottom-0 border-left-0 latest-news-item">
+              <div class="row no-gutters">
+                <div class="col-auto col-lg-5 wrap">
+                  <img src="images/latest-news-richard-nixon.jpg" class="card-img" alt="Richard-Nixon">
+                </div>
+                <div class="col-6 col-md-7 col-lg-7">
+                  <div class="card-body pr-0 py-0 pl-3">
+                    <h5 class="card-title">Watergate: Why President Richard Nixon Resigned 45 Years Ago</h5>
+                  </div>
+                </div>
+              </div>
+            </div> 
+
+            <div class="card" id="sign-up-box">
+                <div class="card-body p-0 d-flex flex-column">
+                  <a class="navbar-brand mr-0 p-0 mb-3" href="#">
+                    <img src="https://g.newsweek.com/www/images/logo-n1.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <h5> Sign up for our Newsletter</h5>
+                  </a>
+                  <button type="button" class="btn btn-secondary rounded-0 text-uppercase font-weight-bolder w-50 mb-2">Sign up<i class="fal fa-angle-right"></i></button>
+                  <a href="#" class="text-decoration-none">Update your preferences</a>
+                </div>
+              </div>
+    
+            </div>
+
+            
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+
+
+                      
+
+
+
+                                  
+                                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+<div class="footer-top">
+<div class="row">
+<div class="col-md-9 logo-footer">
+<a href="#"><img src="images/footer-logo-red.png" alt="logopix" class="img"></a>
+<span class="copyright">&copy 2019 Newsweek</span>
+</div>
+
+<div class="col-md-3 media-icons">
+<a href="#"><i class="fab fa-facebook-square"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-tumblr"></i></a>
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+</div>
+</div>
+</div>
+
+<div class="footer-bottom">
+<div class="row justify-content-between">
+<div class="col-md-7 footer-bottom-left">
+<ul class="menu row">
+<a href="#"><li class="first leaf">About Us</li></a>
+<a href="#"><li class="leaf">Corrections</li></a>
+<a href="#"><li class="leaf">Contact Us</li></a>
+<a href="#"><li class="leaf">Editorial Guidelines</li></a>
+<a href="#"><li class="leaf">Advertise</li></a>
+<a href="#"><li class="leaf">Copyright</li></a>
+<a href="#"><li class="leaf">Terms & Conditions</li></a>
+<a href="#"><li class="leaf">Privacy Policy</li></a>
+<a href="#"><li class="leaf">Cookie Policy</li></a>
+<a href="#"><li class="leaf">Terms of Sale</li></a>
+<a href="#"><li class="leaf">Archive</li></a>
+<a href="#"><li class="leaf">Announcements</li></a>
+<a href="#"><li class="last leaf">Consent preferences</li></a>
+</ul></div>
+
+<div class="col-md-4 footer-bottom-right">
+<div class="row justify-content-between">
+<strong class="editions col-4 text-right">Editions:</strong>
+<ul class="menu col-8 row justify-content-end" id="right">
+<a href="#"><li class="first leaf">U.S. Edition</li></a>
+<a href="#"><li class="leaf">Middle East</li></a>
+<a href="#"><li class="leaf">日本</li></a>
+<a href="#"><li class="leaf">한국</li></a>
+<a href="#"><li class="leaf">Pakistan</li></a>
+<a href="#"><li class="leaf">Polska</li></a>
+<a href="#"><li class="last leaf">România</li></a>
+</ul></div></div></div></div></footer></div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
 </body>
 
 </html>
