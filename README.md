@@ -16,3 +16,7 @@ www.newsweek.com
 https://github.com/KingsleyMcSimon/Newsweek-Clone
 
 # View the live version of the project here:
+
+https://raw.githack.com/KingsleyMcSimon/Newsweek-Clone/master/index.html
+
+

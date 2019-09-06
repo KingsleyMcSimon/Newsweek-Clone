@@ -12,6 +12,15 @@ body {
   overflow-x: hidden;
 }
 
+@media screen and (max-width: 991px) {
+
+.header-bottom .page-nav {
+  position: absolute;
+  top: 12px;
+  right: 80px;
+  }
+}
+
 #navscroll {
   position: relative;
   margin: auto;
@@ -669,7 +678,7 @@ footer {
 /*******END OF FOOTER******/
 
 /* Extra small devices (portrait phones, less than 764px) */
-/*
+
 @media (max-width: 764px) {
   .subs-image {
     margin-bottom: 15px;
@@ -715,7 +724,6 @@ footer {
 }
 
 /* 768px and up */
-/*
 @media screen and (min-width: 768px) {
   body {
       font-size: 15px;
@@ -736,9 +744,21 @@ footer {
     margin-right: 15px;
   }
 
+  .footer-links ul li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+}
 
 @media (max-width: 992px) {
-  
+   .header-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+  }
+
   .main {
     top: 54px;
   }
@@ -750,10 +770,12 @@ footer {
     height: 1620px;
   }
 
-  .footer-top {
+  .footer-content {
     padding-right: 30px;
     padding-left: 30px;
   }
+
+
 
 }
 
@@ -769,7 +791,6 @@ footer {
 }
 
 /*  Large devices (desktops, 992px and up) */
-/*
 @media (min-width: 1200px) { 
   #top-story, #featured-story, #opinion {
     height: 1730px;
@@ -783,4 +804,4 @@ footer {
     top: 281px;
   }
 
- }*/
+ }
