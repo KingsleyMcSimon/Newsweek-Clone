@@ -1,4 +1,8 @@
 linters:
   stylelint:
+<<<<<<< HEAD
     config: "stylelint.config.js"
 
+=======
+    config: 'stylelint.config.js'
+>>>>>>> d4a0144a9e666ca85ed21748ca2b82e0dd9054ee
