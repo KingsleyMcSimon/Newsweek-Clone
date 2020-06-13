@@ -1,5 +1,13 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;800&display=swap" rel="stylesheet');
+
 /******Styling begins Here*******/
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
 
 body {
   padding: 0;
@@ -12,6 +20,74 @@ body {
   overflow-x: hidden;
 }
 
+ .top-navigation {
+    background-color: #f72210;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px 15px;
+    margin-top: -95px;
+    height: 140px;
+  }
+
+  .text-center {
+    text-align: center!important;
+  }
+ .newsweeklogo {
+  font-family: 'Roboto Slab', serif;
+  position: absolute;
+  font-weight: 700;
+  font-size: 80px;
+  letter-spacing: -4px;
+  bottom: 5px;
+  height: 65px;
+}
+
+ #subscribe {
+    color: #f72210;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    margin-right: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+#sign-in {
+ color: #fff;
+font-size: 18px;
+font-weight: 600;
+text-decoration: none;
+}
+
+.pull-up {
+  padding-bottom: 15px;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    left: 0;
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+
+.navbar-toggler {
+  font-size: 1.25rem;
+  line-height: 1;
+  margin: 0 1rem 0 0;
+}
 @media screen and (max-width: 991px) {
 
 .header-bottom .page-nav {
@@ -19,6 +95,90 @@ body {
   top: 12px;
   right: 80px;
   }
+
+  .navbar-toggler {
+    left: 845px;
+    position: relative;
+  } 
+
+  .navbar {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  display: flex;
+}
+
+#navscroll {
+  position: relative;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 50px;
+}
+
+  .bg-light {
+    background-color: #f72210;
+  }
+
+.newsweeklogo {
+  
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: -1px;
+  position: relative;
+  z-index: 99;
+  top: 45px;
+  left: -395px;
+}
+
+ .top-navigation {
+    background-color: #f72210;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-top: -95px;
+  }
+
+  #subscribe {
+    color: #f72210;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    padding: 3px 15px;
+  }
+
+  #subscribe:hover {
+    color: #f72210;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    padding: 3px 15px;
+  }
+
+}
+
+.main-nav {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-content {
+  padding-top: -10%;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 1px solid #f4f5f6;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: -10 27px;
 }
 
 #navscroll {
@@ -38,20 +198,7 @@ body {
   margin: auto;
 }
 
-.logoimg {
-  position: absolute;
-  width: 400px;
-  height: 65px;
-  transform: translate(-50%, 0);
-  top: 15px;
-  left: 50%;
-}
-
-.logoimg > img {
-  width: 100%;
-}
-
-.datenav {
+#datenav {
   position: relative;
   margin-left: 20px;
   font-size: 16px;
@@ -59,15 +206,7 @@ body {
   box-sizing: border-box;
 }
 
-#signin {
-  margin-right: 20px;
-  font-size: 18px;
-  font-weight: 600;
-  position: relative;
-  bottom: 10px;
-}
-
-#signin a {
+#subscribe a {
   text-decoration: none;
   color: #f72210;
   background-color: #fff;
@@ -80,7 +219,7 @@ body {
   z-index: 9999;
 }
 
-#signin span {
+#sign-in span {
   padding-right: 10px;
 }
 
@@ -97,7 +236,7 @@ body {
 .header-bottom {
   color: #000;
   height: 50px;
-  padding: 10px 0px;
+  /* padding: 60px 0px; */
   background-color: #fff;
   border-bottom: 1px solid #d9d9d9;
   position: relative;
@@ -752,12 +891,25 @@ footer {
 
 }
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
    .header-bottom {
     position: fixed;
     width: 100%;
     z-index: 9999;
   }
+
+   .subcribe:hover {
+  color: #f72210;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    padding: 3px 15px;
+   }
+
+   .pull-up {
+     line-height: 40px;
+     box-sizing: border-box;
+   }
 
   .main {
     top: 54px;
@@ -775,10 +927,27 @@ footer {
     padding-left: 30px;
   }
 
-
-
 }
 
+ @media only screen and (max-width: 960px) {
+      .navbar-toggler {
+        position: relative;
+        left: 815px;
+      }
+
+      .make-me-mobile {
+        position: relative;
+        top: 25px;
+        z-index: 99;
+        left: -70px;
+        margin: 0 auto;
+      }
+
+      .bg-white {
+        background-color: #f72210;
+      }
+    
+}
 @media (min-width: 1000px) {
   #top-story, #featured-story, #opinion {
     height: 1670px;
@@ -805,3 +974,4 @@ footer {
   }
 
  }
+ 

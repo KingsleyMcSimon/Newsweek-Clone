@@ -69,4 +69,7 @@ I learnt from this project on how to apply my skills to work with Bootstrap 4, M
 
 # Acknowledgements:
 
+Shout out to as many whose code was used in this project.
 My regard goes to all the people, websites, articles, team members that contributed and supported me towards the cloning, trouble shooting and getting this work to be what it is today, thanks a whole lot.
+[Google Fonts](https://fonts.google.com/specimen/Roboto+Slab?query=roboto+slab&selection.family=Roboto+Slab:wght@700;800&sidebar.open)
+[Bootstrap - Navbar](https://getbootstrap.com/docs/4.5/components/navbar/)
