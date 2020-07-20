@@ -325,6 +325,20 @@ padding: 0 10px;
 
 /*****FEATURED STORIES*******/
 
+#inthemag-left .card-img-overlay h5 {
+  width: 160px;
+}
+
+#inthemag-left .card-img-overlay h5,
+#nw-editors-pick .card-img-overlay h5
+.main #featured-story .card .card-img-overlay h5 {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  width: auto;
+  padding: 8px 15px 9px;
+}
+
 #inthemag-left .card-img-overlay,
 #nw-editors-pick .card-img-overlay,
 #top-story .card .card-img-overlay,
@@ -356,16 +370,6 @@ padding: 0 10px;
   width: fit-content;
 }
 
-#inthemag-left .card-img-overlay h5,
-#nw-editors-pick .card-img-overlay h5
-.main #featured-story .card .card-img-overlay h5 {
-  font-size: 17px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  width: auto;
-  padding: 8px 15px 9px;
-}
-
 #featured-story .card:last-child .card-img-overlay {
   width: 50%;
 }
@@ -391,12 +395,6 @@ padding: 0 10px;
 #top-story::-webkit-scrollbar,
 #opinion::-webkit-scrollbar {
   width: 0 !important;
-}
-
-.card-body a h5 {
-  color: black;
-  text-decoration: none;
-  text-decoration-color: red;
 }
 
 #top-story #culture-story {
@@ -454,10 +452,6 @@ padding: 0 10px;
   font-size: 13px;
   font-weight: bold;
   color: #333;
-}
-
-#inthemag-left .card-img-overlay h5 {
-  width: 160px;
 }
 
 #inthemag-left .card-body {
