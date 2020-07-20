@@ -325,13 +325,34 @@ padding: 0 10px;
 
 /*****FEATURED STORIES*******/
 
-#top-story .card .card-img-overlay,
-.main #featured-story .card .card-img-overlay,
 #inthemag-left .card-img-overlay,
-#nw-editors-pick .card-img-overlay {
+#nw-editors-pick .card-img-overlay,
+#top-story .card .card-img-overlay,
+.main #featured-story .card .card-img-overlay{
   padding: 8px 15px 9px;
   top: auto;
   text-align: center;
+  width: fit-content;
+}
+
+.card-body a h5 {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: red;
+}
+
+#top-story .card .card-img-overlay h5 {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  width: fit-content;
+  padding: 8px 15px 9px;
+}
+
+.main #featured-story .card:last-child .card-img-overlay h5 {
+  font-size: 13px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
   width: fit-content;
 }
 
@@ -349,11 +370,10 @@ padding: 0 10px;
   width: 50%;
 }
 
-.main #featured-story .card:last-child .card-img-overlay h5 {
-  font-size: 13px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  width: fit-content;
+.opinion-item .wrap {
+  width: 63px;
+  height: 60px;
+  position: relative
 }
 
 #featured-story .card .wrap {
@@ -371,14 +391,6 @@ padding: 0 10px;
 #top-story::-webkit-scrollbar,
 #opinion::-webkit-scrollbar {
   width: 0 !important;
-}
-
-#top-story .card .card-img-overlay h5 {
-  font-size: 17px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  width: fit-content;
-  padding: 8px 15px 9px;
 }
 
 .card-body a h5 {
@@ -416,12 +428,6 @@ padding: 0 10px;
 .opinion-item {
   border-radius: 0;
   position: relative;
-}
-
-.opinion-item .wrap {
-  width: 63px;
-  height: 60px;
-  position: relative
 }
 
 .opinion-item .wrap img {
@@ -466,8 +472,6 @@ padding: 0 10px;
   font: bold 18px/18px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
 }
-
-
 
 /*****SIGNUPS*****/
 
