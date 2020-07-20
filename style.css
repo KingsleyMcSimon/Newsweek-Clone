@@ -20,13 +20,13 @@ body {
   overflow-x: hidden;
 }
 
- .top-navigation {
+ .top-nav {
     background-color: #f72210;
     width: 100%;
     margin: 0 auto;
-    padding: 0 10px 15px;
+    padding: 0px 10px 15px;
     margin-top: -95px;
-    height: 140px;
+    height: 100px;
   }
 
   .text-center {
@@ -40,6 +40,9 @@ body {
   letter-spacing: -4px;
   bottom: 5px;
   height: 65px;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 90px;
 }
 
  #subscribe {
