@@ -84,16 +84,17 @@ padding: 0 10px;
     background-size: 100% 100%;
 }
 
-.navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.5);
-    border-color: rgba(0,0,0,.1);
-}
-
 .navbar-toggler {
   font-size: 1.25rem;
   line-height: 1;
   margin: 0 1rem 0 0;
 }
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+
 @media screen and (max-width: 991px) {
 
 .header-bottom .page-nav {
@@ -225,6 +226,10 @@ padding: 0 10px;
   z-index: 9999;
 }
 
+.header-middle span {
+  font-size: 16px;
+}
+
 #sign-in span {
   padding-right: 10px;
 }
@@ -318,14 +323,10 @@ padding: 0 10px;
   color: white;
 }
 
-.header-middle span {
-  font-size: 16px;
-}
-
 /*****FEATURED STORIES*******/
 
-.main #featured-story .card .card-img-overlay,
 #top-story .card .card-img-overlay,
+.main #featured-story .card .card-img-overlay,
 #inthemag-left .card-img-overlay,
 #nw-editors-pick .card-img-overlay {
   padding: 8px 15px 9px;
@@ -334,9 +335,9 @@ padding: 0 10px;
   width: fit-content;
 }
 
-.main #featured-story .card .card-img-overlay h5,
 #inthemag-left .card-img-overlay h5,
-#nw-editors-pick .card-img-overlay h5 {
+#nw-editors-pick .card-img-overlay h5
+.main #featured-story .card .card-img-overlay h5 {
   font-size: 17px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
