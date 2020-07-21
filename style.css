@@ -111,16 +111,6 @@ color:  #f72210;
   top: auto;
 }
 
-#inthemag-left .card-img-overlay h5,
-#nw-editors-pick .card-img-overlay h5
-.main #featured-story .card .card-img-overlay h5 {
-  font-size: 17px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  width: auto;
-  padding: 8px 15px 9px;
-}
-
 #top-story .card .card-img-overlay h5 {
   font-size: 17px;
   font-family: "Roboto Condensed", sans-serif;
@@ -134,6 +124,16 @@ color:  #f72210;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   width: fit-content;
+}
+
+#inthemag-left .card-img-overlay h5,
+#nw-editors-pick .card-img-overlay h5
+.main #featured-story .card .card-img-overlay h5 {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  width: auto;
+  padding: 8px 15px 9px;
 }
 
 #inthemag-left .card-img-overlay,
