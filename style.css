@@ -70,8 +70,34 @@ color:  #f72210;
 
 /*****FEATURED STORIES*******/
 
+.card-body a h5 {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: red;
+}
+
 #inthemag-left .card-img-overlay h5 {
   width: 160px;
+}
+
+#top-story .card .card-img-overlay h5 {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  width: fit-content;
+  padding: 8px 15px 9px;
+}
+
+.main #featured-story .card:last-child .card-img-overlay h5 {
+  font-size: 13px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  width: fit-content;
+}
+
+#inthemag-left .card-body h5 {
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
 }
 
 #inthemag-left .card-img-overlay h5,
@@ -91,27 +117,6 @@ color:  #f72210;
   padding: 8px 15px 9px;
   top: auto;
   text-align: center;
-  width: fit-content;
-}
-
-.card-body a h5 {
-  color: black;
-  text-decoration: none;
-  text-decoration-color: red;
-}
-
-#top-story .card .card-img-overlay h5 {
-  font-size: 17px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  width: fit-content;
-  padding: 8px 15px 9px;
-}
-
-.main #featured-story .card:last-child .card-img-overlay h5 {
-  font-size: 13px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
   width: fit-content;
 }
 
@@ -205,11 +210,6 @@ color:  #f72210;
   color: black;
   text-align: center;
   margin-bottom: 0;
-}
-
-#inthemag-left .card-body h5 {
-  font: bold 18px/18px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
 }
 
 /*****SIGNUPS*****/
