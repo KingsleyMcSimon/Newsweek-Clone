@@ -98,6 +98,16 @@ color:  #f72210;
   font-size: 22px;
 }
 
+#inthemag-left .card-img-overlay h5,
+#nw-editors-pick .card-img-overlay h5
+.main #featured-story .card .card-img-overlay h5 {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  width: auto;
+  padding: 8px 15px 9px;
+}
+
 #fr-right h5:hover,
 #second-row h5:hover,
 #nw-editors-pick h5:hover,
@@ -120,16 +130,6 @@ color:  #f72210;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   width: fit-content;
-}
-
-#inthemag-left .card-img-overlay h5,
-#nw-editors-pick .card-img-overlay h5
-.main #featured-story .card .card-img-overlay h5 {
-  font-size: 17px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  width: auto;
-  padding: 8px 15px 9px;
 }
 
 #second-row .card-img-overlay {
