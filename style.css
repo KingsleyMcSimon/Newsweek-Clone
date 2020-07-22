@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;800&display=swap" rel="stylesheet');
 
-/******Styling begins Here*******/
+/****** Styling begins Here *******/
 
 html, body {
   max-width: 100%;
@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-	font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .header-bg {
@@ -19,19 +19,18 @@ body {
 }
 
 p {
-	margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .newsweeklogo {
-	color: white;
-	font-size: 65px;
-	font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: 65px;
+  font-family: 'Roboto Slab', serif;
 }
 
 .sub {
   margin-right: 25px;
   border-radius: 20px;
-
 }
 
 .li-text {
@@ -39,25 +38,28 @@ p {
 }
 
 .li-text:hover {
-color:  #f72210;
+  color: #f72210;
 }
 
-@media(max-width: 765px) {
+@media (max-width: 765px) {
 	.newsweeklogo {
-		font-size: 46px;
+  font-size: 46px;
+}
+  
+} 
+
+@media (max-width: 575px) {
+  .newsweeklogo {
+	    font-size: 28px;
+	    order: 1;
   }
   
-}
-@media(max-width: 575px){
-	.newsweeklogo {
-		font-size: 28px;
-		order: 1;
-	}
-	.header-date {
+    .header-date {
 		display: none;
-	}
-	.order-on-small-screen{
-		order: 2;
+  }
+    
+    .order-on-small-screen{
+    order: 2;
 		padding: 5px;
 	}
   
@@ -68,7 +70,7 @@ color:  #f72210;
   
 }
 
-/*****FEATURED STORIES*******/
+/***** FEATURED STORIES ******/
 
 .card-body a h5 {
   color: black;
@@ -98,16 +100,6 @@ color:  #f72210;
   font-size: 22px;
 }
 
-#inthemag-left .card-img-overlay h5,
-#nw-editors-pick .card-img-overlay h5
-.main #featured-story .card .card-img-overlay h5 {
-  font-size: 17px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  width: auto;
-  padding: 8px 15px 9px;
-}
-
 #fr-right h5:hover,
 #second-row h5:hover,
 #nw-editors-pick h5:hover,
@@ -132,6 +124,16 @@ color:  #f72210;
   width: fit-content;
 }
 
+#inthemag-left .card-img-overlay h5,
+#nw-editors-pick .card-img-overlay h5,
+.main #featured-story .card .card-img-overlay h5 {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  width: auto;
+  padding: 8px 15px 9px;
+}
+
 #second-row .card-img-overlay {
   top: auto;
 }
@@ -139,7 +141,7 @@ color:  #f72210;
 #inthemag-left .card-img-overlay,
 #nw-editors-pick .card-img-overlay,
 #top-story .card .card-img-overlay,
-.main #featured-story .card .card-img-overlay{
+.main #featured-story .card .card-img-overlay {
   padding: 8px 15px 9px;
   top: auto;
   text-align: center;
@@ -153,14 +155,14 @@ color:  #f72210;
 .opinion-item .wrap {
   width: 63px;
   height: 60px;
-  position: relative
+  position: relative;
 }
 
 #featured-story .card .wrap {
   min-height: 33px;
 }
 
-/*******TOP STORY, CULTURE AND TRAVEL******/
+/******* TOP STORY, CULTURE AND TRAVEL ******/
 
 #top-story,
 #opinion {
@@ -197,7 +199,7 @@ color:  #f72210;
   font-size: 13px;
 }
 
-/****OPINION AND LATEST NEWS******/
+/**** OPINION AND LATEST NEWS ******/
 
 .opinion-item {
   border-radius: 0;
@@ -211,7 +213,7 @@ color:  #f72210;
 
 .opinion-item .wrap img {
   height: 100%;
-  position: relative
+  position: relative;
 }
 
 .opinion-item .card-text {
@@ -221,7 +223,7 @@ color:  #f72210;
   text-transform: uppercase;
   margin-top: 4px;
   float: right;
-  position: relative
+  position: relative;
 
 }
 
@@ -243,7 +245,7 @@ color:  #f72210;
   margin-bottom: 0;
 }
 
-/*****SIGNUPS*****/
+/***** SIGNUPS *****/
 
 .sign-up-newsletter {
   max-width: 300px;
@@ -264,13 +266,13 @@ color:  #f72210;
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
-    no-repeat #f72210;
+  background: 
+  url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  no-repeat #f72210;
   margin-right: 10px;
 }
 
 .newsletter-signup .lk {
-  /* margin-bottom: 10px; */
   display: inline-block;
   padding: 10px 10px 10px 12px;
   color: white;
@@ -286,7 +288,7 @@ color:  #f72210;
   width: fit-content;
 }
 
-/******IN THE MAGAZINE*******/
+/****** IN THE MAGAZINE *******/
 
 #fr-right img,
 #nw-editors-pick .mag-title img,
@@ -364,7 +366,7 @@ color:  #f72210;
 
 #section-picks .block-title {
   color: #f72210;
-  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
   line-height: 22px;
 }
 
@@ -383,21 +385,21 @@ color:  #f72210;
   padding-top: 0;
 }
 
-/************Subscribe****************/
+/************ Subscribe ****************/
 
 .sub-info {
-  font: bold 17px "Roboto Condensed",sans-serif;
+  font: bold 17px "Roboto Condensed", sans-serif;
   flex: 1;
 }
 
 .sub-info span:hover {
-  color: #F72210;
+  color: #f72210;
   cursor: pointer;
 }
 
 .sb-title {
   color: #f72210;
-  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
   padding-bottom: 11px;
 }
 
@@ -434,7 +436,7 @@ color:  #f72210;
   font-size: 24px;
   line-height: 28px;
   margin-bottom: 15px;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
 }
 
@@ -449,7 +451,7 @@ color:  #f72210;
   display: inline-block;
   padding: 10px 12px;
   color: white;
-  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
 }
 
 .nletter-block {
@@ -470,20 +472,20 @@ color:  #f72210;
 .nletter-info h3 {
   font-size: 24px;
   font-weight: bold;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #333;
 }
 
 .nletter-info .text-white {
   color: white;
-  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   background-color: #f72210;
   height: 3px;
   width: 10px;
 }
 
-/*********FOOTER***********/
+/********* FOOTER ***********/
 
 footer {
   border-top: 2px solid #f4f5f6;
@@ -560,7 +562,7 @@ footer {
   text-decoration: none;
 }
 
-/*******END OF FOOTER******/
+/******* END OF FOOTER ******/
 
 /* Extra small devices (portrait phones, less than 764px) */
 
@@ -584,12 +586,12 @@ footer {
     width: 100%;
     max-width: 100%;
   }
-  
+
 }
 
-@media (max-width: 764px) and (min-width: 481px) {
+  @media (max-width: 764px) and (min-width: 481px) {
 
-.sub-section-picks li img {
+  .sub-section-picks li img {
     width: 258px;
   }
 
@@ -609,8 +611,8 @@ footer {
 }
 
 /* 768px and up */
-@media screen and (min-width: 768px) {
-  body {
+    @media screen and (min-width: 768px) {
+    body {
       font-size: 15px;
       line-height: 20px;
   }
@@ -636,30 +638,31 @@ footer {
   }
 
 }
-
+  
 @media only screen and (max-width: 992px) {
    .header-bottom {
     position: fixed;
     width: 100%;
     z-index: 9999;
   }
-
+  
    .subcribe:hover {
   color: #f72210;
-    font-size: 16px;
-    font-weight: 600;
-    background: #fff;
-    padding: 3px 15px;
-   }
+  font-size: 16px;
+  font-weight: 600;
+  background: #fff;
+  padding: 3px 15px;
+  }
 
-   .pull-up {
-     line-height: 40px;
+    .pull-up {
+  line-height: 40px;
      box-sizing: border-box;
    }
 
   .main {
     top: 54px;
   }
+
 }
 
 @media (min-width: 992px) { 
@@ -673,27 +676,28 @@ footer {
     padding-left: 30px;
   }
 
-}
-
- @media only screen and (max-width: 960px) {
-      .navbar-toggler {
-        position: relative;
-        left: 815px;
-      }
-
-      .make-me-mobile {
-        position: relative;
-        top: 25px;
-        z-index: 99;
-        left: -70px;
-        margin: 0 auto;
-      }
-
+  }
+  
+    @media only screen and (max-width: 960px) {
+  .navbar-toggler {
+  position: relative;
+  left: 815px;
+    }
+    
+    .make-me-mobile {
+    position: relative;
+    top: 25px;
+    z-index: 99;
+    left: -70px;
+    margin: 0 auto;
+    }
+  
       .bg-white {
         background-color: #f72210;
       }
     
 }
+
 @media (min-width: 1000px) {
   #top-story, #featured-story, #opinion {
     height: 1670px;
