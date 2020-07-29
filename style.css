@@ -50,7 +50,6 @@ p {
   .newsweeklogo {
     font-size: 46px;
 }
-
 } 
 
 @media (max-width: 575px) {
@@ -233,7 +232,6 @@ p {
   float: right;
   position: relative;
 }
-
 #latest-news .latest-news-item .wrap {
   width: 135px;
 }
@@ -669,6 +667,7 @@ footer {
   .main {
     top: 54px;
   }
+  
 }
 
 @media (min-width: 992px) { 
